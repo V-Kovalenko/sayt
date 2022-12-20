@@ -1,10 +1,11 @@
-.container {
-  max-width: 1024px;
+.app {
+  width: 100%;
+  max-width: 1445px;
   margin: 0 auto;
-
-}
-
-a {
-  text-decoration: none;
-  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &__header {
+    margin-bottom: 40px !important;
+  }
 }

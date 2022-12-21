@@ -1,0 +1,81 @@
+@import "../../assets/scss/mixins/container";
+input {
+  //display: none;
+}
+.name {
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+
+  }
+
+  &__my-name {
+    font-size: 48px;
+    line-height: 120%;
+    width: 124px;
+  }
+
+  &__personal__data {
+    font-size: 18px;
+    line-height: 122%;
+  }
+
+  &__language {
+    //transform: rotate(-90deg);
+
+
+  }
+
+  &__photo {
+    margin-bottom: 224px;
+  }
+}
+
+.personal-data {
+  &__ui-designer {
+
+  }
+
+  &__age {
+
+  }
+
+}
+
+.language {
+  display: flex;
+  transform: rotate(-90deg);
+  position: relative;
+  gap: 20px;
+
+  &__ru {
+
+  }
+  &__band {
+    font-weight: bold;
+    position: absolute;
+    width: 16px;
+    height: 1px;
+    background-color: black;
+    transform: rotate(-90deg);
+    top: 11px;
+    left: 22px;
+
+  }
+
+  &__eng {
+
+  }
+}
+
+
+//.name {
+//  @include container
+//}
+//.name__header{
+//  display: flex;
+//  justify-content: space-between;
+//}

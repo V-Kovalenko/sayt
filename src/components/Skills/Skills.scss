@@ -1,0 +1,23 @@
+@import "../../assets/scss/mixins/container";
+.skills {
+  @include container;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &_text {
+    margin-bottom: 87px;
+    color: #070707;
+    font-size: 18px;
+    line-height: 122%;
+  }
+
+  &__title {
+    margin-bottom: 70px;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,5 @@
+@import "../../assets/scss/mixins/container";
+.home {
+  @include container;
+  margin: 0 auto;
+}

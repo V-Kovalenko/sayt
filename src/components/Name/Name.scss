@@ -1,8 +1,11 @@
 @import "../../assets/scss/mixins/container";
+
 input {
   //display: none;
 }
+
 .name {
+  @include container;
 
   &__header {
     display: flex;
@@ -24,8 +27,6 @@ input {
   }
 
   &__language {
-    //transform: rotate(-90deg);
-
 
   }
 
@@ -54,6 +55,7 @@ input {
   &__ru {
 
   }
+
   &__band {
     font-weight: bold;
     position: absolute;

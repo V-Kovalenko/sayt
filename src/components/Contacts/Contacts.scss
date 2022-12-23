@@ -1,0 +1,35 @@
+@import "../../assets/scss/mixins/container";
+.contacts {
+  @include container;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__text{
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 116%;
+    text-align: center;
+  }
+  &__button{
+    margin-bottom: 91px;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    border-radius: 20px;
+    width: 180.5px;
+    font-size: 18px;
+    line-height: 127%;
+  }
+  &__img{
+    margin-bottom: 46px;
+  }
+  &__like{
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+    line-height: 121%;
+  }
+}

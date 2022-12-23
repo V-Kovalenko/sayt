@@ -1,0 +1,62 @@
+@import "../../assets/scss/mixins/container";
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include container;
+
+  &__title {
+    margin-bottom: 47px;
+
+  }
+
+  &__fashion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__fashion-img {
+    margin-bottom: 45px;
+
+  }
+
+  &__link-fashion {
+    font-size: 18px;
+    line-height: 123%;
+    margin-bottom: 99px;
+  }
+
+  &__reebok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__reebok-img {
+    margin-bottom: 45px;
+  }
+
+  &__link-reebok {
+    font-size: 18px;
+    line-height: 123%;
+    margin-bottom: 99px ;
+  }
+  &__braun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  &__braun-img{
+
+  }
+  &__link-braun{
+    font-size: 18px;
+    line-height: 123%;
+    margin-bottom: 210px;
+
+  }
+}
+

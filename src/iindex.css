@@ -1,0 +1,41 @@
+
+.tooltip {
+    border-bottom: 1px dotted #0077AA;
+    cursor: help;
+}
+.tooltip::after {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 0 8px 8px 8px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    content: attr(data-tooltip);
+    margin-top: 24px;
+    opacity: 0;
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden;
+
+    transition: all 0.4s ease-in-out;
+}
+
+.tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+.hi {
+    position: absolute;
+    color: red;
+    /*bottom: -20px;*/
+    right: 40px;
+    top: 0;
+}
+/*.hi::after {*/
+/*    content: attr(data-toolpit);*/
+/*    opacity: 0;*/
+/*    !*visibility: hidden;*!*/
+/*}*/
+.hi:hover::after {
+    content: attr(data-toolpit);
+    opacity: 1;
+    /*visibility: visible;*/
+}

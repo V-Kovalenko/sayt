@@ -1,5 +1,6 @@
 const TestAbout = () => {
+    console.log('Hello')
     return (
-        <div></div>
+        <div>2</div>
     )
 }
